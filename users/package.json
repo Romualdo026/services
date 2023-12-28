@@ -1,0 +1,23 @@
+{
+  "name": "users",
+  "version": "1.0.0",
+  "description": "Serviços responsáveis por gerir cadastro de usuários",
+  "main": "/src/main.js",
+  "scripts": {
+    "test": "nodemon ./dist/main.js"
+  },
+  "author": "Moises Carneiro",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^20.10.1",
+    "@types/nodemon": "^1.19.6",
+    "@types/restify": "^8.5.11",
+    "@types/typescript": "^2.0.0",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "mongoose": "^8.0.2",
+    "restify": "^11.1.0"
+  }
+}
